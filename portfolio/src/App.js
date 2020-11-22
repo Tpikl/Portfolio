@@ -4,7 +4,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 
 import { theme } from './theme';
 import GlobalStyles from './global';
-import Navbar from './shared/Navbar';
+import { Navbar } from './shared';
 import Home from './pages/Home';
 
 import './App.scss';

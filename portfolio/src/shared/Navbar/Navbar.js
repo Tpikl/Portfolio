@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
-import { Burger, Menu } from './';
-import './Navbar.scss';
+import { Burger, Menu } from '../';
+import { StyledNavbar } from './Navbar.styled';
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className='navbar'>
+    <StyledNavbar>
       <Burger open={open} setOpen={setOpen} />
       <Menu open={open} setOpen={setOpen} />
-    </div>
+    </StyledNavbar>
   );
 };
 export default Navbar;
