@@ -8,6 +8,7 @@ import { Navbar } from './shared';
 import Home from './pages/Home';
 
 import './App.scss';
+import Resume from './pages/Resume';
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
         <BrowserRouter>
           <Navbar />
           <Route exact path='/' component={Home} />
+          <Route exact path='/Resume' component={Resume} />
         </BrowserRouter>
 
     </ThemeProvider>
