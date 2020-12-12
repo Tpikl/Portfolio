@@ -7,3 +7,4 @@ Pages:
   - Example pages?
     - React Design
     - CSS Design
+    - Minigame
