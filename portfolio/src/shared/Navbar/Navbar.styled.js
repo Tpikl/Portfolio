@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
 export const StyledNavbar = styled.div`
-  background-color: white;
-  height: 50px;
+  background-color: ${({ theme }) => theme.primaryLight};
+  height: 40px;
 `;
