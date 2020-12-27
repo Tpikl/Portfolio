@@ -2,11 +2,4 @@
     "files.exclude": {
         "**/node_modules": true
     },
-    "editor.tabSize": 2,
-    "appService.zipIgnorePattern": [
-        "node_modules{,/**}",
-        ".vscode{,/**}"
-    ],
-    "appService.defaultWebAppToDeploy": "/subscriptions/0037e9c1-4f90-404a-9107-57473757c2b6/resourceGroups/TrnResourse/providers/Microsoft.Web/sites/TrnPortfolio",
-    "appService.deploySubpath": "portfolio"
 }
