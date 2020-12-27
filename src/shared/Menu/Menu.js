@@ -6,7 +6,7 @@ const Menu = ({open, setOpen}) => {
     <StyledMenu open={open}>
       <a href='/'>Home</a>
       <a href='/resume.pdf' target="_blank">Resume</a>
-      <a href='/Resume'>Curriculum Vitae</a>
+      <a href='/Cv'>Curriculum Vitae</a>
     </StyledMenu>
   )
 };

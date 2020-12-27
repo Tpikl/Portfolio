@@ -1,14 +1,15 @@
 import React from 'react';
-import { StyledHome } from './Home.styled';
+import HomeStyled from './Home.styled';
 
 const Home = () => {
   return (
-    <StyledHome>
+    <HomeStyled>
       <div className='name'>Tayler Nichols</div>
+
       <div className='subtitle'>[Software Engineer]</div>
       <div className='subtitle'>[Web Developer]</div>
       <div className='subtitle'>[Coder]</div>
-    </StyledHome>
+    </HomeStyled>
   );
 };
 
