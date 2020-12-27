@@ -5,7 +5,7 @@ const Resume = () => {
 
   return (
     <StyledResume>
-      <h1>[ Resume ]</h1>
+      <h1>[ Curriculum Vitae ]</h1>
       <hr />
     </StyledResume>
   );
