@@ -3,12 +3,11 @@ import styled from 'styled-components';
 export const StyledMenu = styled.nav`
   display: flex;
   flex-direction: column;
-  justify-content: center;
   background: ${({ theme }) => theme.primaryLight};
   transform: ${({open}) => open ? 'translateX(0)' : 'translateX(-100%)'};
   height: 100vh;
   text-align: left;
-  padding: 2rem;
+  padding: 3rem 2rem 2rem;
   position: absolute;
   top: 0;
   left: 0;
@@ -19,7 +18,6 @@ export const StyledMenu = styled.nav`
 
   a {
     font-size: 2rem;
-    padding: 2rem 0;
     font-weight: bold;
     color: ${({ theme }) => theme.primaryDark};
     text-decoration: none;
