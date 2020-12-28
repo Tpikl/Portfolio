@@ -3,7 +3,7 @@ import { ThemeProvider } from 'styled-components';
 import { BrowserRouter, Route } from 'react-router-dom';
 
 import GlobalStyles from './global';
-import { lightTheme, darkTheme } from './theme';
+import Themes from './themes';
 import Palette from './shared/Palette/Palette';
 import { Navbar } from './shared';
 
@@ -11,8 +11,8 @@ import Home from './pages/Home';
 import CurriculumVitae from './pages/CurriculumVitae';
 
 const App = () => {
-  const [theme, setTheme] = useState(lightTheme);
-  const toggleTheme = () => setTheme(theme === lightTheme ? darkTheme : lightTheme);
+  const [theme, setTheme] = useState(Themes.light);
+  const toggleTheme = () => setTheme(theme === Themes.light ? Themes.dark : Themes.light);
 
   return (
     <ThemeProvider theme={theme}>

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { THEMETYPES } from '../../theme';
+import Themes from '../../themes';
 
 const ProfileStyled = styled.div`
   width: 350px;
@@ -13,7 +13,7 @@ const ProfileStyled = styled.div`
     max-width: 300px;
     border-radius: 50%;
     border: 3px solid ${({theme}) => theme.primary};
-    ${({theme}) => theme.type === THEMETYPES.DARK &&`
+    ${({theme}) => theme === Themes.dark &&`
       filter: grayscale(100%);
     `}
   }
