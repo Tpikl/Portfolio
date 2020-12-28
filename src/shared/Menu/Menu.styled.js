@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const StyledMenu = styled.nav`
   display: flex;
   flex-direction: column;
-  background: ${({ theme }) => theme.primaryLight};
+  background: ${({ theme }) => theme.primaryDark};
   transform: ${({open}) => open ? 'translateX(0)' : 'translateX(-100%)'};
   height: 100vh;
   text-align: left;
@@ -19,7 +19,7 @@ export const StyledMenu = styled.nav`
   a {
     font-size: 2rem;
     font-weight: bold;
-    color: ${({ theme }) => theme.primaryDark};
+    color: ${({ theme }) => theme.primaryLight};
     text-decoration: none;
     transition: color 0.3s linear;
 

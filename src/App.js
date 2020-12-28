@@ -9,8 +9,6 @@ import { Navbar } from './shared';
 import Home from './pages/Home';
 import CurriculumVitae from './pages/CurriculumVitae';
 
-import './App.scss';
-
 const App = () => {
 
   return (
