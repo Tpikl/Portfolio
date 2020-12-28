@@ -4,6 +4,7 @@ export const experiences = [
     endDate: 2020,
     company: 'U-Haul: WebSelfStorage',
     title: 'Senior Software Developer',
+    skills: ['C#', '.Net', 'MVC', 'HTML', 'CSS', 'SCSS', 'JS', 'Knockout', 'CI/CD', 'Unit Testing', 'Agile/Scrum'],
     responsibilities: [
       'Maintained the WebSelfStorage team’s large storage facility management tool. Using .Net MVC & Knockout. Handled Linq & Stored Procedure scripts. Unit testing coverage.',
       'Further developed and integrated a QuickBooks & Sage50 interface within the management tool.',
@@ -15,10 +16,11 @@ export const experiences = [
   },
 
   {
-    startDate: '2014',
-    endDate: '2017',
+    startDate: 2014,
+    endDate: 2017,
     company: 'U-Haul: Contact Center',
     title: 'Senior Software Developer',
+    skills: ['C#', 'ASP.NET', 'Web Forms', 'MVC', 'HTML', 'CSS', 'JS'],
     responsibilities: [
       'Responsible for developing,maintaining, & updating a significant number of .NET products(30+) for the Contact Center applications team. ASP.NET WebForms & MVC.',
       'Responsible for maintaining and servicing the Roadside Assistance product, one of U-Haul’s largest customer service facing applications.',
@@ -30,12 +32,12 @@ export const experiences = [
   },
 
   {
-    startDate: '2012',
-    endDate: '2014',
+    startDate: 2012,
+    endDate: 2014,
     company: 'Cummings/SAIFE',
     title: 'Software Engineer/Tech Writer',
+    skills: ['Java', 'C#', 'WPF', 'Documentation', 'Technical Writing'],
     responsibilities: [
-      'Independently developed a Windows desktop solution to dynamically create, manage, & encrypt secure digital drives. UI developed in C#, WPF. Drive management in Java.',
       'Independently developed a Windows desktop solution to dynamically create, manage, & encrypt secure digital drives. UI developed in C#, WPF. Drive management in Java.',
       'Collaborated with a small team to develop an Android application designed for encrypted communication over text and voice.',
       'Wrote extensive amounts of documentation, detailing application functionality.',

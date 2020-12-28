@@ -15,6 +15,11 @@ const Experience = ({exp}) => {
             <li key={i}>{item}</li>
           )}
         </ul>
+        <div className='experience_skills'>
+          {exp.skills.map((item, i) =>
+            <span key={i} className='experience_skills-item'>{item}</span>
+          )}
+        </div>
       </div>
     </ExperienceStyled>
   );
