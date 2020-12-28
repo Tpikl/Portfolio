@@ -1,7 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
-const GlobalStyles = createGlobalStyle
-`
+const GlobalStyles = createGlobalStyle`
   html, body {
     margin: 0;
     padding: 0;
@@ -22,5 +21,4 @@ const GlobalStyles = createGlobalStyle
     background-image: radial-gradient(#466A97 3%, transparent 4%);
   }
 `
-
 export default GlobalStyles;
