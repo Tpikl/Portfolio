@@ -11,7 +11,7 @@ import Home from './pages/Home';
 import CurriculumVitae from './pages/CurriculumVitae';
 
 const App = () => {
-  const [theme, setTheme] = useState(Themes.light);
+  const [theme, setTheme] = useState(Themes.dark);
   const toggleTheme = () => setTheme(theme === Themes.light ? Themes.dark : Themes.light);
 
   return (
