@@ -1,12 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { StyledMenu } from './Menu.styled';
 
 const Menu = ({open, setOpen}) => {
   return (
     <StyledMenu open={open}>
-      <a href='/'>Home</a>
-      <a href='/resumeTaylerNichols.pdf' target="_blank">Resume</a>
-      <a href='/Cv'>Curriculum Vitae</a>
+      <Link to='/' onClick={() => setOpen(false)}>Home</Link>
+      <Link to='/Cv' onClick={() => setOpen(false)}>Curriculum Vitae</Link>
     </StyledMenu>
   )
 };
