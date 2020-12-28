@@ -15,7 +15,7 @@ const GlobalStyles = createGlobalStyle
   body {
     text-rendering: optimizeLegibility;
     font-family: "Nova Mono", monospace;
-    color: ${({theme}) => theme.primaryDark};
+    color: ${({theme}) => theme.primary};
 
     background: ${({theme}) => theme.background};
     background-size: 15px 15px;
