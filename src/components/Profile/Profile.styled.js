@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import Themes from '../../themes';
 
 const ProfileStyled = styled.div`
-  width: 350px;
+  width: 300px;
   text-align: center;
 
   padding: 5px;
@@ -10,7 +10,7 @@ const ProfileStyled = styled.div`
   border: 1px solid ${({theme}) => theme.primary};
 
   & img {
-    max-width: 300px;
+    max-width: 250px;
     border-radius: 50%;
     ${({theme}) => theme === Themes.dark &&`
       filter: grayscale(100%);
@@ -18,7 +18,7 @@ const ProfileStyled = styled.div`
   }
 
   .name {
-    font-size: 2.5em;
+    font-size: 2.25em;
     font-weight: bold;
   }
   .subtitle {
