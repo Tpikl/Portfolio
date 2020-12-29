@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const NetworkStyled = styled.div`
   position: fixed;
-  bottom: 10%;
+  top: 10%;
   color: ${({theme}) => theme.tertiary};
 
   @media (max-width: ${({theme}) => theme.mobile}) {
