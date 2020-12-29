@@ -3,14 +3,14 @@ import styled from "styled-components";
 const ExperienceStyled = styled.li`
   display: flex;
   line-height: 1.7em;
+  margin-bottom: 10px;
 
   .experience_date {
-    min-width: 100px;
     padding: 0 5px;
     font-size: .8em;
     font-style: italic;
     border-right: 1px solid ${({theme}) => theme.secondary};
-    border-radius: 10px;
+    border-radius: 8px;
     color: ${({theme}) => theme.secondary};
   }
 
@@ -23,7 +23,6 @@ const ExperienceStyled = styled.li`
 
   .experience_header {
     font-family: 'Roboto Slab', serif;
-    /* font-family: 'Crimson Text', serif; */
   }
   .experience_header-company {
     padding: 0 5px;
@@ -37,7 +36,8 @@ const ExperienceStyled = styled.li`
     font-style: italic;
     color: ${({theme}) => theme.tertiary};
   }
-  .experience_description {
+
+  .experience_responsibilities {
     font-size: .9em;
   }
 
@@ -52,6 +52,7 @@ const ExperienceStyled = styled.li`
     border: 2px solid ${({theme}) => theme.tertiary};
     border-radius: 5px;
     line-height: 1em;
+    cursor: pointer;
   }
 `;
 export default ExperienceStyled;

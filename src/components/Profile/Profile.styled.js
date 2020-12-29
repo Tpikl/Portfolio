@@ -12,18 +12,16 @@ const ProfileStyled = styled.div`
   & img {
     max-width: 300px;
     border-radius: 50%;
-    border: 3px solid ${({theme}) => theme.primary};
     ${({theme}) => theme === Themes.dark &&`
       filter: grayscale(100%);
     `}
   }
 
   .name {
-    font-size: 42px;
+    font-size: 2.5em;
     font-weight: bold;
   }
   .subtitle {
-    font-size: 18px;
     display: flex;
     flex-flow: column;
     justify-content: center;

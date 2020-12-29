@@ -34,7 +34,7 @@ export const experiences = [
   {
     startDate: 2012,
     endDate: 2014,
-    company: 'Cummings/SAIFE',
+    company: 'SAIFE',
     title: 'Software Engineer/Tech Writer',
     skills: ['Java', 'C#', 'WPF', 'Documentation', 'Technical Writing'],
     responsibilities: [

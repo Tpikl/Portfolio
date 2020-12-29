@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 const PaletteStyled = styled.div`
   position: absolute;
-  top: .2rem;
-  right: .2rem;
+  top: 5px;
+  right: 10px;
   font-size: 1.5em;
 
   & svg {
