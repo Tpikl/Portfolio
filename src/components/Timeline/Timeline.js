@@ -1,4 +1,4 @@
-import { experiences } from "../../experiences";
+import { experiences } from "../../experience";
 import Experience from "../Experience/Experience";
 import TimelineStyled from "./Timeline.styled";
 

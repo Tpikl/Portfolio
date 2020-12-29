@@ -13,7 +13,7 @@ const GlobalStyles = createGlobalStyle`
 
   body {
     text-rendering: optimizeLegibility;
-    font-family: "Nova Mono", monospace;
+    font-family: 'Roboto', sans-serif;
     color: ${({theme}) => theme.primary};
 
     background: ${({theme}) => theme.background};

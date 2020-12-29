@@ -4,15 +4,14 @@ const HeroStyled = styled.div`
   margin: auto;
   display: flex;
   flex-direction: column;
-  font-family: 'Roboto Slab', serif;
 
   .hero_header {
     font-size: 4em;
+    font-family: 'Roboto Slab', serif;
     color: ${({theme}) => theme.secondary};
   }
   .hero_header-sub {
     font-size: 2em;
-    font-family: 'Roboto', serif;
     color: ${({theme}) => theme.tertiary};
   }
 

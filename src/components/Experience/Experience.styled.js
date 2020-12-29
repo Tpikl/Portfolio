@@ -40,19 +40,5 @@ const ExperienceStyled = styled.li`
   .experience_responsibilities {
     font-size: .9em;
   }
-
-  .experience_skills {
-    display: flex;
-    flex-flow: wrap;
-    font-size: .8em;
-  }
-  .experience_skills-item {
-    padding: 2px 4px;
-    margin: 3px;
-    border: 2px solid ${({theme}) => theme.tertiary};
-    border-radius: 5px;
-    line-height: 1em;
-    cursor: pointer;
-  }
 `;
 export default ExperienceStyled;

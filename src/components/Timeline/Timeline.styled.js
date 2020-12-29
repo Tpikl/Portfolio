@@ -1,10 +1,9 @@
 import styled from 'styled-components';
 
 const TimelineStyled = styled.ul`
-  margin: 0;  // Revert default setting
-  padding: 0;
-
   margin: auto;
+  padding: 50px;
+
   display: flex;
   flex-direction: column;
 

@@ -1,4 +1,6 @@
 import Column from "../../shared/Flex/Column";
+import Row from "../../shared/Flex/Row";
+import Skill from "../../shared/Skill/Skill";
 import ExperienceStyled from "./Experience.styled";
 
 const Experience = ({exp}) => {
@@ -20,11 +22,11 @@ const Experience = ({exp}) => {
           )}
         </ul>
         {/* Skills */}
-        <div className='experience_skills'>
+        <Row>
           {exp.skills.map((item, i) =>
-            <span key={i} className='experience_skills-item'>{item}</span>
+            <Skill key={i} name={item} />
           )}
-        </div>
+        </Row>
       </div>
     </ExperienceStyled>
   );

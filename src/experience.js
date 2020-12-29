@@ -46,3 +46,26 @@ export const experiences = [
     ]
   }
 ];
+
+export const skills = [
+  {
+    name: 'Microsoft',
+    skills: ['C#', '.NET', 'EF', 'xUnit', 'NUnit', 'MySql']
+  },
+  {
+    name: 'Microsoft Tools',
+    skills: ['Visual Studio', 'VS Code', 'Azure Pipelines']
+  },
+  {
+    name: 'Web',
+    skills: ['HTML', 'CSS', 'SCSS', 'JS', 'React', 'Vue.js', 'Knockout', 'Jest']
+  },
+  {
+    name: 'Web Tools',
+    skills: ['NPM', 'Git', 'TFVC']
+  },
+  {
+    name: 'Process',
+    skills: ['Agile/Scrum','CI/CD', 'Unit Testing']
+  }
+];
