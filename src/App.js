@@ -2,11 +2,12 @@ import React, { useState } from 'react';
 import { ThemeProvider } from 'styled-components';
 import { BrowserRouter, Route } from 'react-router-dom';
 
+import Navbar from './shared/Navbar/Navbar';
+import Network from './components/Network/Network';
+import Home from './pages/Home';
+
 import GlobalStyles from './global';
 import Themes from './themes';
-import Navbar from './shared/Navbar/Navbar';
-
-import Home from './pages/Home';
 
 const App = () => {
   const [theme, setTheme] = useState(Themes.dark);
@@ -18,6 +19,7 @@ const App = () => {
 
         <BrowserRouter>
           <Navbar setTheme={toggleTheme} />
+          <Network />
 
           <Route exact path='/' component={Home} />
         </BrowserRouter>
