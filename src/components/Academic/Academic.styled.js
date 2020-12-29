@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const AcademicStyled = styled.div`
-  margin: 250px auto;
+  margin: 200px auto;
   width: 850px;
   display: flex;
   flex-direction: column;
@@ -40,7 +40,7 @@ const AcademicStyled = styled.div`
   .project_box {
     width: 400px;
     padding: 10px;
-    border: 1px solid white;
+    border: 1px solid ${({theme}) => theme.primary};
     border-radius: 10px;
   }
   .project_box ul {

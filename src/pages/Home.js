@@ -10,18 +10,17 @@ import HomeStyled from './Home.styled';
 const Home = () => {
   return (
     <HomeStyled>
-      {/* <Profile /> */}
 
       <Row className={'home_hero'}>
         <Hero />
       </Row>
-      <Row className={'home_offset'}>
+      <Row id='About' className={'home_offset'}>
         <About />
       </Row>
-      <Row>
+      <Row id='Experience'>
         <Timeline />
       </Row>
-      <Row className={'home_offset'}>
+      <Row id='Academic' className={'home_offset'}>
         <Academic />
       </Row>
 

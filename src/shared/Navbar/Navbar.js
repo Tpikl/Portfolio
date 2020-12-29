@@ -1,14 +1,15 @@
-import React, { useState } from 'react';
-import { Burger, Menu } from '../';
+import { HashLink as Link } from 'react-router-hash-link';
+import Palette from '../Palette/Palette';
 import { StyledNavbar } from './Navbar.styled';
 
-const Navbar = () => {
-  const [open, setOpen] = useState(false);
-
+const Navbar = ({setTheme}) => {
   return (
     <StyledNavbar>
-      <Burger open={open} setOpen={setOpen} />
-      <Menu open={open} setOpen={setOpen} />
+      <Link to='/#About'>About</Link>
+      <Link to='#Experience'>Experience</Link>
+      <Link to='/#Academic'>Academic</Link>
+
+      <Palette setTheme={setTheme} />
     </StyledNavbar>
   );
 };

@@ -4,7 +4,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 
 import GlobalStyles from './global';
 import Themes from './themes';
-import Palette from './shared/Palette/Palette';
+import Navbar from './shared/Navbar/Navbar';
 
 import Home from './pages/Home';
 
@@ -17,7 +17,8 @@ const App = () => {
         <GlobalStyles />
 
         <BrowserRouter>
-          <Palette setTheme={toggleTheme} />
+          <Navbar setTheme={toggleTheme} />
+
           <Route exact path='/' component={Home} />
         </BrowserRouter>
 
