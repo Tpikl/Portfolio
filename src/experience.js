@@ -49,27 +49,28 @@ export const experiences = [
 
 export const skills = [
   {
-    name: 'Microsoft',
-    skills: ['C#', '.NET', 'EF', 'MsSql']
+    name: 'C Sharp',
+    fa: 'fab fa-windows',
+    skills: ['.NET', 'Core', 'Linq', 'EF', 'mssql']
   },
   {
-    name: 'Microsoft Tools',
-    skills: ['Visual Studio', 'VS Code', 'Azure Pipelines']
+    name: 'JS',
+    fa: 'fab fa-js-square',
+    skills: ['React', 'Vue.js', 'Knockout']
   },
   {
     name: 'Web',
-    skills: ['HTML', 'CSS', 'SCSS', 'JS', 'React', 'Vue.js', 'Knockout']
-  },
-  {
-    name: 'Web Tools',
-    skills: ['NPM', 'Git', 'TFVC']
-  },
-  {
-    name: 'Unit Testing',
-    skills: ['xUnit, NUnit, Jest']
+    fa: 'fas fa-code',
+    skills: ['HTML', '(S)CSS', 'RWD']
   },
   {
     name: 'Process',
-    skills: ['Agile/Scrum','CI/CD', 'Unit Testing']
+    fa: 'fas fa-terminal',
+    skills: ['Unit Testing', 'Agile', 'Scrum']
+  },
+  {
+    name: 'Tools',
+    fa: 'fas fa-tools',
+    skills: ['Azure', 'NPM', 'Git']
   }
 ];
