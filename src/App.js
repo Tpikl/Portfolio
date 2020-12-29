@@ -7,7 +7,6 @@ import Themes from './themes';
 import Palette from './shared/Palette/Palette';
 
 import Home from './pages/Home';
-import CurriculumVitae from './pages/CurriculumVitae';
 
 const App = () => {
   const [theme, setTheme] = useState(Themes.dark);
@@ -20,7 +19,6 @@ const App = () => {
         <BrowserRouter>
           <Palette setTheme={toggleTheme} />
           <Route exact path='/' component={Home} />
-          <Route exact path='/Cv' component={CurriculumVitae} />
         </BrowserRouter>
 
     </ThemeProvider>
