@@ -1,8 +1,8 @@
 import RowStyled from "./Row.styled";
 
-const Row = ({children}) => {
+const Row = ({children, className}) => {
   return (
-    <RowStyled>
+    <RowStyled className={className}>
       {children}
     </RowStyled>
   );

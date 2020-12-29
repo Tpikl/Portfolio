@@ -39,6 +39,7 @@ export const experiences = [
     skills: ['Java', 'C#', 'WPF', 'Documentation', 'Technical Writing'],
     responsibilities: [
       'Independently developed a Windows desktop solution to dynamically create, manage, & encrypt secure digital drives. UI developed in C#, WPF. Drive management in Java.',
+      'Contributed to completing an encrypted VPN solution for Windows using Java.',
       'Collaborated with a small team to develop an Android application designed for encrypted communication over text and voice.',
       'Wrote extensive amounts of documentation, detailing application functionality.',
       'Wrote many outlines and proposals for technical books.'

@@ -1,8 +1,8 @@
 import ColumnStyled from "./Column.styled";
 
-const Column = ({children}) => {
+const Column = ({children, className}) => {
   return (
-    <ColumnStyled>
+    <ColumnStyled className={className}>
       {children}
     </ColumnStyled>
   );
