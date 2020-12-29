@@ -50,7 +50,7 @@ export const experiences = [
 export const skills = [
   {
     name: 'Microsoft',
-    skills: ['C#', '.NET', 'EF', 'xUnit', 'NUnit', 'MySql']
+    skills: ['C#', '.NET', 'EF', 'MsSql']
   },
   {
     name: 'Microsoft Tools',
@@ -58,11 +58,15 @@ export const skills = [
   },
   {
     name: 'Web',
-    skills: ['HTML', 'CSS', 'SCSS', 'JS', 'React', 'Vue.js', 'Knockout', 'Jest']
+    skills: ['HTML', 'CSS', 'SCSS', 'JS', 'React', 'Vue.js', 'Knockout']
   },
   {
     name: 'Web Tools',
     skills: ['NPM', 'Git', 'TFVC']
+  },
+  {
+    name: 'Unit Testing',
+    skills: ['xUnit, NUnit, Jest']
   },
   {
     name: 'Process',
