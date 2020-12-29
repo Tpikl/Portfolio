@@ -3,6 +3,7 @@ import Row from '../shared/Flex/Row';
 import Hero from '../components/Hero/Hero';
 import About from '../components/About/About';
 import Timeline from '../components/Timeline/Timeline';
+import Academic from '../components/Academic/Academic';
 
 import HomeStyled from './Home.styled';
 
@@ -15,10 +16,13 @@ const Home = () => {
         <Hero />
       </Row>
       <Row className={'home_offset'}>
-        <About/>
+        <About />
       </Row>
       <Row>
         <Timeline />
+      </Row>
+      <Row className={'home_offset'}>
+        <Academic />
       </Row>
 
     </HomeStyled>
