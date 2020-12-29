@@ -16,9 +16,7 @@ const GlobalStyles = createGlobalStyle`
     font-family: 'Roboto', sans-serif;
     color: ${({theme}) => theme.primary};
 
-    background: ${({theme}) => theme.background};
-    background-size: 15px 15px;
-    background-image: radial-gradient(#466A97 3%, transparent 4%);
+    background-color: ${({theme}) => theme.background};
   }
 `
 export default GlobalStyles;

@@ -12,6 +12,7 @@ const Themes = {
     secondary: '#1a2b50',
     tertiary: '#f08203',
     background: '#e5e5e5',
+    backgroundOffset: '#d8d8d8',
     hover: '#ffffff'
   },
   dark: {
@@ -21,6 +22,7 @@ const Themes = {
     secondary: '#c9ada7',
     tertiary: '#6a8596',
     background: '#22223b',
+    backgroundOffset: '#19192b',
     hover: '#9a8c98'
   }
 };
