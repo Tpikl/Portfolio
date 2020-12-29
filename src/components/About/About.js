@@ -8,7 +8,7 @@ import AboutStyled from "./About.styled";
 const About = () => {
   return (
     <AboutStyled>
-      <span className='about_hello'>Hey there,</span>
+      <h2 className='about_hello'>Hey there,</h2>
       <div className='about_desc'>
         <span>I'm an experienced software engineer out of Phoenix, AZ.</span>
         <span>I have a strong passion for building and maintaining web applications of all types. My aim is to design functional and visibly stunning websites.</span>

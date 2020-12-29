@@ -5,6 +5,9 @@ const RowStyled = styled.div`
   ${({wrap}) => wrap &&
     `flex-flow: wrap;`
   }
+  ${({align}) => align &&
+    `align-items: ${align};`
+  }
 
   @media (max-width: ${({theme}) => theme.mobile}) {
     flex-flow: wrap;

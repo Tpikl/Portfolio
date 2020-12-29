@@ -6,7 +6,6 @@ const AboutStyled = styled.div`
   width: 850px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 
   .about_hello {
     margin-left: 50px;
