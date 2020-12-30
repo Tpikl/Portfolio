@@ -2,8 +2,10 @@ import styled from 'styled-components';
 
 const NetworkStyled = styled.div`
   position: fixed;
-  top: 10%;
+  top: ${({scroll}) => `${scroll}%`};
+  right: 0;
   color: ${({theme}) => theme.tertiary};
+  transition: top .1s;
 
   @media (max-width: ${({theme}) => theme.mobile}) {
     display: none;

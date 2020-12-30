@@ -5,11 +5,20 @@ const GlobalStyles = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    // Scrollbar
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
   }
   *, *:before, *:after {
     box-sizing: inherit;
   }
 
+  // Scrollbar
+  // Chrome, Safari, Opera
+  html::-webkit-scrollbar {
+    display: none;
+  }
 
   body {
     text-rendering: optimizeLegibility;
