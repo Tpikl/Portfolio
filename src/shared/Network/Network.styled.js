@@ -1,43 +1,25 @@
 import styled from 'styled-components';
 
 const NetworkStyled = styled.div`
-  position: fixed;
-  top: ${({scroll}) => `${scroll}%`};
-  right: 0;
-  color: ${({theme}) => theme.tertiary};
-  transition: top .1s;
+  display: flex;
+  align-items: center;
+  flex-flow: wrap;
 
-  @media (max-width: ${({theme}) => theme.mobile}) {
-    display: none;
-  }
-
-  & svg {
+  & a {
     margin: 5px;
     font-size: 1.25em;
-  }
-  & a {
     text-decoration: none;
     color: ${({theme}) => theme.tertiary};
   }
 
-  .network_icons {
-    align-items: center;
-  }
-  .network_icons::before {
-    content: "";
-    width: 1px;
-    height: 100px;
-    background-color: ${({theme}) => theme.secondary};
-  }
-  .network_icons::after {
-    content: "";
-    width: 1px;
-    height: 100px;
-    background-color: ${({theme}) => theme.secondary};
+  & a:hover {
+    transition: .5s;
+    color: ${({theme}) => theme.hover};
   }
 
   .network_cv {
-    margin: 3px;
+    margin: auto;
+    font-size: .85em;
     font-weight: bolder;
   }
 `;

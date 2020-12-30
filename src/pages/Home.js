@@ -4,6 +4,7 @@ import Hero from '../components/Hero/Hero';
 import About from '../components/About/About';
 import Timeline from '../components/Timeline/Timeline';
 import Academic from '../components/Academic/Academic';
+import Footer from '../shared/Footer/Footer';
 
 import HomeStyled from './Home.styled';
 
@@ -23,6 +24,7 @@ const Home = () => {
       <Row id='Academic' className={'home_offset'}>
         <Academic />
       </Row>
+      <Footer />
 
     </HomeStyled>
   );
