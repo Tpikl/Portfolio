@@ -3,7 +3,7 @@ import { ThemeProvider } from 'styled-components';
 import { BrowserRouter, Route } from 'react-router-dom';
 
 import Navbar from './shared/Navbar/Navbar';
-import Network from './components/Network/Network';
+import Network from './shared/Network/Network';
 import Home from './pages/Home';
 
 import GlobalStyles from './global';

@@ -1,4 +1,4 @@
-import Column from "../../shared/Flex/Column";
+import Column from "../Flex/Column";
 import NetworkStyled from "./Network.styled";
 
 const Network = () => {
