@@ -2,14 +2,13 @@ import styled from 'styled-components';
 import Themes from '../../themes';
 
 const AboutStyled = styled.div`
-  margin: 250px auto;
+  margin: 200px auto;
   width: 850px;
   display: flex;
   flex-direction: column;
 
   .about_hello {
-    margin-left: 50px;
-    margin-bottom: 25px;
+    margin: 0 0 25px 50px;
     color: ${({theme}) => theme.tertiary};
   }
   .about_desc {

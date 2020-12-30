@@ -8,19 +8,19 @@ const Themes = {
   light: {
     ...main,
 
-    primary: '#000000',
-    secondary: '#1a2b50',
-    tertiary: '#f08203',
-    background: '#e5e5e5',
-    backgroundOffset: '#d8d8d8',
-    hover: '#ffffff'
+    primary: '#283618',
+    secondary: '#515b2f',
+    tertiary: '#80bdbc',
+    background: '#fffef9',
+    backgroundOffset: '#fff6e5',
+    hover: '#DDA15E'
   },
   dark: {
     ...main,
 
     primary: '#f2e9e4',
     secondary: '#c9ada7',
-    tertiary: '#6a8596',
+    tertiary: '#6087a0',
     background: '#22223b',
     backgroundOffset: '#19192b',
     hover: '#9a8c98'
