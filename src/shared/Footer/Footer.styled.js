@@ -12,6 +12,16 @@ const FooterStyled = styled.footer`
   .footer_highlight {
     color: ${({theme}) => theme.secondary};
   }
+  .footer_repo {
+    font-size: 1.25em;
+    margin: 0 5px;
+    color: ${({theme}) => theme.primary};
+  }
+  .footer_repo:hover {
+    transition: .5s;
+    color: ${({theme}) => theme.hover};
+  }
+
   .footer_network {
     margin: auto;
   }
