@@ -1,6 +1,5 @@
-import Row from "../../shared/Flex/Row";
-import Column from "../../shared/Flex/Column";
-import Category from "../../shared/Skill/Category";
+import { Row, Column } from "../../shared/Flex";
+import { Category } from "../../shared/Skill";
 import { skills } from '../../experience';
 
 import AboutStyled from "./About.styled";

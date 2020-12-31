@@ -1,5 +1,6 @@
 import { experiences } from "../../experience";
-import Experience from "../Experience/Experience";
+import Experience from "../Experience";
+
 import TimelineStyled from "./Timeline.styled";
 
 const Timeline = () => {

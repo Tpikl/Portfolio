@@ -1,6 +1,6 @@
-import Column from "../../shared/Flex/Column";
-import Row from "../../shared/Flex/Row";
-import Skill from "../../shared/Skill/Skill";
+import { Row, Column } from "../../shared/Flex";
+import { Skill } from "../../shared/Skill";
+
 import ExperienceStyled from "./Experience.styled";
 
 const Experience = ({exp}) => {

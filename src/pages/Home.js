@@ -1,10 +1,10 @@
-import Row from '../shared/Flex/Row';
+import { Row } from '../shared/Flex';
 
-import Hero from '../components/Hero/Hero';
-import About from '../components/About/About';
-import Timeline from '../components/Timeline/Timeline';
-import Academic from '../components/Academic/Academic';
-import Footer from '../shared/Footer/Footer';
+import Hero from '../components/Hero';
+import About from '../components/About';
+import Timeline from '../components/Timeline';
+import Academic from '../components/Academic';
+import Footer from '../shared/Footer';
 
 import HomeStyled from './Home.styled';
 
