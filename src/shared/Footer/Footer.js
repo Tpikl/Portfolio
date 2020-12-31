@@ -1,4 +1,4 @@
-import Network from "../Network";
+import Network from "shared/Network";
 import FooterStyled from "./Footer.styled";
 
 const Footer = () => {

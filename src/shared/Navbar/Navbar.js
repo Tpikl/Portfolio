@@ -1,5 +1,5 @@
 import { HashLink as Link } from 'react-router-hash-link';
-import Palette from '../Palette';
+import Palette from 'shared/Palette';
 import { StyledNavbar } from './Navbar.styled';
 
 const Navbar = ({setTheme}) => {

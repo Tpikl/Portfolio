@@ -1,4 +1,4 @@
-import { Row } from "../../shared/Flex";
+import { Row } from "shared/Flex";
 import AcademicStyled from "./Academic.styled";
 
 const Academic = () => {

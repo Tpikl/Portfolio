@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import Network from "../Network";
+import Network from "shared/Network";
 import ScrollerStyled from "./Scroller.styled";
 
 const Scroller = () => {

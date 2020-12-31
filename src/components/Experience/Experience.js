@@ -1,5 +1,5 @@
-import { Row, Column } from "../../shared/Flex";
-import { Skill } from "../../shared/Skill";
+import { Row, Column } from "shared/Flex";
+import { Skill } from "shared/Skill";
 
 import ExperienceStyled from "./Experience.styled";
 

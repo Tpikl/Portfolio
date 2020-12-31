@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import Themes from '../../themes';
+import Themes from 'themes';
 
 const AboutStyled = styled.div`
   margin: 200px auto;

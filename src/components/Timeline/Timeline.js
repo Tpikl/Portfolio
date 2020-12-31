@@ -1,5 +1,5 @@
-import { experiences } from "../../experience";
-import Experience from "../Experience";
+import { experiences } from "experience";
+import Experience from "components/Experience";
 
 import TimelineStyled from "./Timeline.styled";
 

@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 import { ThemeProvider } from 'styled-components';
 import { BrowserRouter, Route } from 'react-router-dom';
 
-import Navbar from './shared/Navbar';
-import Scroller from './shared/Scroller';
-import Home from './pages/Home';
+import Navbar from 'shared/Navbar';
+import Scroller from 'shared/Scroller';
+import Home from 'pages/Home';
 
-import GlobalStyles from './global';
-import Themes from './themes';
+import GlobalStyles from 'global';
+import Themes from 'themes';
 
 const App = () => {
   const [theme, setTheme] = useState(Themes.dark);
