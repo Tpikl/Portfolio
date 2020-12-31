@@ -8,6 +8,7 @@ const Navbar = ({setTheme}) => {
       <Link to='/#About'>About</Link>
       <Link to='#Experience'>Experience</Link>
       <Link to='/#Academic'>Academic</Link>
+      <a href='/resumeTaylerNichols.pdf' target='_blank' rel='noreferrer'>Resume</a>
 
       <Palette setTheme={setTheme} />
     </StyledNavbar>

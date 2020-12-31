@@ -13,7 +13,7 @@ const Network = () => {
       <a href='https://github.com/Tpikl' target='_blank' rel='noreferrer'>
         <i className='fab fa-github-square' />
       </a>
-      <a href='/resumeTaylerNichols.pdf' target='_blank'>
+      <a href='/resumeTaylerNichols.pdf' target='_blank' rel='noreferrer'>
         <div className='network_cv'>CV</div>
       </a>
     </NetworkStyled>
