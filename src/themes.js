@@ -9,10 +9,10 @@ const Themes = {
     ...main,
 
     primary: '#283618',
-    secondary: '#515b2f',
-    tertiary: '#80bdbc',
+    secondary: '#424a26',
+    tertiary: '#91c6c5',
     background: '#fffef9',
-    backgroundOffset: '#fff6e5',
+    backgroundOffset: '#f2f1ef',
     hover: '#DDA15E'
   },
   dark: {

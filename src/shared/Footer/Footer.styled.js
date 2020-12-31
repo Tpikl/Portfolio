@@ -1,13 +1,14 @@
 import styled from 'styled-components';
 
 const FooterStyled = styled.footer`
-  margin: 20px 0;
+  margin: 20px 0 10px;
   display: flex;
   flex-direction: column;
   text-align: center;
 
   .footer_text {
     font-size: .8em;
+
   }
   .footer_highlight {
     color: ${({theme}) => theme.secondary};

@@ -7,17 +7,16 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
 
     // Scrollbar
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;  // IE and Edge
+    scrollbar-width: none;  // Firefox
   }
   *, *:before, *:after {
     box-sizing: inherit;
   }
 
   // Scrollbar
-  // Chrome, Safari, Opera
   html::-webkit-scrollbar {
-    display: none;
+    display: none; // Chrome, Safari, Opera
   }
 
   body {
