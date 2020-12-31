@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { ThemeProvider } from 'styled-components';
 import { BrowserRouter, Route } from 'react-router-dom';
 
-import Navbar from './shared/Navbar/Navbar';
-import Scroller from './shared/Scroller.js/Scroller';
+import Navbar from './shared/Navbar';
+import Scroller from './shared/Scroller';
 import Home from './pages/Home';
 
 import GlobalStyles from './global';
