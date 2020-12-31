@@ -1,9 +1,8 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import Network from "../Network/Network";
 import ScrollerStyled from "./Scroller.styled";
 
 const Scroller = () => {
-  const [scrollPosition, setScrollPosition] = useState(0);
 
   const handleScroll = () => {
     const networkHeight = document.getElementById('scroller')?.offsetHeight ?? 0;
@@ -17,7 +16,8 @@ const Scroller = () => {
     const purePercent = scrollCorrected/pageHeight;
     const position = purePercent * max;
 
-    setScrollPosition(position);
+    // Resolves issue of redrawing styled component 200+ times when scrolling.
+    document.getElementById('scroller').style.top = `${position}%`;
   };
   useEffect(() => handleScroll(), []);  // Set scroll on load.
   useEffect(() => {
@@ -28,7 +28,7 @@ const Scroller = () => {
   }, []);
 
   return (
-    <ScrollerStyled id='scroller' scroll={scrollPosition}>
+    <ScrollerStyled id='scroller'>
       <Network />
     </ScrollerStyled>
  );
