@@ -5,7 +5,6 @@ const ScrollerStyled = styled.div`
   right: 25px;
   color: ${({theme}) => theme.tertiary};
   transition: top .1s;
-  border: 1px solid white;
 
   @media (max-width: ${({theme}) => theme.mobile}) {
     display: none;
