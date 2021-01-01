@@ -17,7 +17,7 @@ const AcademicStyled = styled.div`
   .school_name {
     font-size: 1.25em;
     font-family: 'Roboto Slab', serif;
-    color: var(--theme-secondary);
+    color: var(--theme-textOffset);
   }
   .school_city {
     line-height: 1em;
@@ -28,7 +28,7 @@ const AcademicStyled = styled.div`
 
   .education_degree {
     font-family: 'Roboto Slab', serif;
-    color: var(--theme-primary);
+    color: var(--theme-secondary);
   }
 
   /* Projects */
@@ -50,12 +50,12 @@ const AcademicStyled = styled.div`
   .project_title {
     font-size: 1.75em;
     font-family: 'Roboto Slab', serif;
-    color: var(--theme-secondary);
+    color: var(--theme-textOffset);
   }
   .project_subtitle {
     margin-left: 10px;
     font-size: 1.25em;
-    color: var(--theme-textOffset);
+    color: var(--theme-secondary);
   }
 `;
 export default AcademicStyled;

@@ -29,12 +29,12 @@ const ExperienceStyled = styled.li`
     font-size: 1.5em;
     font-weight: bold;
     text-decoration: underline;
-    color: var(--theme-secondary);
+    color: var(--theme-textOffset);
   }
   .experience_header-title {
     padding-left: 20px;
     font-style: italic;
-    color: var(--theme-textOffset);
+    color: var(--theme-secondary);
   }
 
   .experience_responsibilities {
