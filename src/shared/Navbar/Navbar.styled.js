@@ -7,11 +7,9 @@ export const StyledNavbar = styled.div`
   z-index: 1;
   display: flex;
   justify-content: space-around;
-  background-color: ${({ theme }) => theme.secondary};
+  background-color: var(--theme-backgroundOffset);
 
   & a {
     margin: 10px 0;
-    text-decoration: none;
-    color: ${({ theme }) => theme.tertiary};
   }
 `;

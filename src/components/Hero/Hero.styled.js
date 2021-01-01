@@ -8,11 +8,12 @@ const HeroStyled = styled.div`
   .hero_header {
     font-size: 4em;
     font-family: 'Roboto Slab', serif;
-    color: ${({theme}) => theme.secondary};
+    color: var(--theme-hover);
   }
+
   .hero_header-sub {
     font-size: 2em;
-    color: ${({theme}) => theme.tertiary};
+    color: var(--theme-primary);
   }
 
   .hero_desc {

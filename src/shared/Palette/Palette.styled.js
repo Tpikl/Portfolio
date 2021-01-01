@@ -7,11 +7,11 @@ const PaletteStyled = styled.div`
   font-size: 1.5em;
 
   & svg {
-    color: ${({theme}) => theme.tertiary};
     cursor: pointer;
+    color: var(--theme-text);
   }
   & svg:hover {
-    color: ${({theme}) => theme.hover};
+    color: var(--theme-secondary);
   }
 `;
 export default PaletteStyled;

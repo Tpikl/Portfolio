@@ -3,7 +3,6 @@ import styled from 'styled-components';
 const ScrollerStyled = styled.div`
   position: fixed;
   right: 25px;
-  color: ${({theme}) => theme.tertiary};
   transition: top .1s;
 
   @media (max-width: ${({theme}) => theme.mobile}) {
@@ -19,13 +18,13 @@ const ScrollerStyled = styled.div`
     content: "";
     width: 1px;
     height: 100px;
-    background-color: ${({theme}) => theme.secondary};
+    background-color: var(--theme-primary);
   }
   & div::after {
     content: "";
     width: 1px;
     height: 100px;
-    background-color: ${({theme}) => theme.secondary};
+    background-color: var(--theme-primary);
   }
 `;
 export default ScrollerStyled;

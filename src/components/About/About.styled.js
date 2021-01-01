@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import Themes from 'themes';
 
 const AboutStyled = styled.div`
   margin: 200px auto;
@@ -9,7 +8,7 @@ const AboutStyled = styled.div`
 
   .about_hello {
     margin: 0 0 25px 50px;
-    color: ${({theme}) => theme.tertiary};
+    color: var(--theme-primary);
   }
   .about_desc {
     margin: 0 50px;
@@ -29,7 +28,7 @@ const AboutStyled = styled.div`
     max-width: 250px;
     max-height: 250px;
     border-radius: 25%;
-    ${({theme}) => theme === Themes.dark &&`
+    ${({theme}) => theme.dark &&`
       filter: grayscale(100%);
     `}
   }

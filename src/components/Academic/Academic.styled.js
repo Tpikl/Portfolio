@@ -17,18 +17,18 @@ const AcademicStyled = styled.div`
   .school_name {
     font-size: 1.25em;
     font-family: 'Roboto Slab', serif;
-    color: ${({theme}) => theme.secondary};
+    color: var(--theme-secondary);
   }
   .school_city {
     line-height: 1em;
     margin-left: 10px;
     padding-left: 10px;
-    border-left: 1px solid ${({theme}) => theme.primary};
+    border-left: 1px solid var(--theme-textOffset);
   }
 
   .education_degree {
     font-family: 'Roboto Slab', serif;
-    color: ${({theme}) => theme.tertiary};
+    color: var(--theme-primary);
   }
 
   /* Projects */
@@ -40,7 +40,7 @@ const AcademicStyled = styled.div`
   .project_box {
     width: 400px;
     padding: 10px;
-    border: 1px solid ${({theme}) => theme.primary};
+    border: 1px solid var(--theme-textOffset);
     border-radius: 10px;
   }
   .project_box ul {
@@ -50,12 +50,12 @@ const AcademicStyled = styled.div`
   .project_title {
     font-size: 1.75em;
     font-family: 'Roboto Slab', serif;
-    color: ${({theme}) => theme.secondary};
+    color: var(--theme-secondary);
   }
   .project_subtitle {
     margin-left: 10px;
     font-size: 1.25em;
-    color: ${({theme}) => theme.tertiary};
+    color: var(--theme-textOffset);
   }
 `;
 export default AcademicStyled;

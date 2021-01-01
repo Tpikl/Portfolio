@@ -12,7 +12,7 @@ const CategoryStyled = styled.div`
   .cat_icon {
     margin: 10px auto;
     font-size: 4em;
-    color: ${({theme}) => theme.secondary};
+    color: var(--theme-secondary);
   }
   .cat_title {
     font-size: 1.5em;

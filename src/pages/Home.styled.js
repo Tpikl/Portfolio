@@ -6,7 +6,7 @@ const HomeStyled = styled.div`
   }
 
   .home_offset {
-    background-color: ${({theme}) => theme.backgroundOffset};
+    background-color: var(--theme-backgroundOffset);
   }
 `;
 export default HomeStyled;

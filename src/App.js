@@ -6,11 +6,11 @@ import Navbar from 'shared/Navbar';
 import Scroller from 'shared/Scroller';
 import Home from 'pages/Home';
 
-import GlobalStyles from 'global';
-import Themes from 'themes';
+import GlobalStyles from 'styles/global';
+import Themes from 'styles/themes';
 
 const App = () => {
-  const [theme, setTheme] = useState(JSON.parse(localStorage.getItem('theme')) ?? Themes.dark);
+  const [theme, setTheme] = useState(JSON.parse(localStorage.getItem('theme')) ?? Themes.light);
   const toggleTheme = () => setTheme(theme === Themes.light ? Themes.dark : Themes.light);
   useEffect(() => {
     localStorage.setItem('theme', JSON.stringify(theme));

@@ -9,15 +9,15 @@ const ExperienceStyled = styled.li`
     padding: 0 5px;
     font-size: .8em;
     font-style: italic;
-    border-right: 1px solid ${({theme}) => theme.secondary};
+    border-right: 1px solid var(--theme-textOffset);
     border-radius: 8px;
-    color: ${({theme}) => theme.secondary};
+    color: var(--theme-textOffset);
   }
 
   .experience_content {
     margin-left: 10px;
     max-width: 750px;
-    border-bottom: 2px solid ${({theme}) => theme.tertiary};
+    border-bottom: 2px solid var(--theme-textOffset);
     border-radius: 10px;
   }
 
@@ -29,12 +29,12 @@ const ExperienceStyled = styled.li`
     font-size: 1.5em;
     font-weight: bold;
     text-decoration: underline;
-    color: ${({theme}) => theme.secondary};
+    color: var(--theme-secondary);
   }
   .experience_header-title {
     padding-left: 20px;
     font-style: italic;
-    color: ${({theme}) => theme.tertiary};
+    color: var(--theme-textOffset);
   }
 
   .experience_responsibilities {
