@@ -7,7 +7,7 @@ const Category =({category})=> {
       <div className='cat_title'>{category.name}</div>
       <div className='cat_skills'>
         {category.skills.map((item, i) =>
-          `${item}${category.skills.length !== i+1 ? ',':''} `
+          `${item}${category.skills.length !== i+1 ? ',':'.'} `
         )}
       </div>
     </CategoryStyled>
