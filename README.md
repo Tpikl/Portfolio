@@ -3,7 +3,6 @@ Hey there, welcome to my [Portfolio](https://github.com/Tpikl/Portfolio/#readme)
 
 
 ## Install & Set Up
-___
 ```
 $ npm install
 $ npm start

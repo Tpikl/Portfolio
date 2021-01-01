@@ -13,8 +13,8 @@ const Themes = {
     backgroundOffset: '#E1DBDB',  // Gainsboro
 
     // Text
-    text: '#333531',              // Black Olive
-    textOffset: '#535751',        // Ebony
+    text: '#3D403B',              // Black Olive
+    textOffset: '#1E201D',        // Eerie Black
 
     // Highlight
     primary: '#F55536',           // Orange Soda
@@ -29,8 +29,8 @@ const Themes = {
     backgroundOffset: '#141C29',  // Rich Black
 
     // Text
-    text: '#ECE8EE',                 // Ghost White
-    textOffset: '#CDCBE1',           // Light Periwinkle
+    text: '#ECE8EE',              // Ghost White
+    textOffset: '#CDCBE1',        // Light Periwinkle
 
     // Highlight
     primary: '#008C8F',           // Dark Cyan

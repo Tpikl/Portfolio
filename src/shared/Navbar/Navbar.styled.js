@@ -8,6 +8,7 @@ export const StyledNavbar = styled.div`
   display: flex;
   justify-content: space-around;
   background-color: var(--theme-backgroundOffset);
+  box-shadow: 0 5px 20px -12px black;
 
   & a {
     margin: 10px 0;
