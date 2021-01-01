@@ -31,6 +31,9 @@ const AboutStyled = styled.div`
     ${({theme}) => theme.dark &&`
       filter: grayscale(100%);
     `}
+    @media (max-width: ${({theme}) => theme.mobile}) {
+      display: none;
+    }
   }
 `;
 export default AboutStyled;

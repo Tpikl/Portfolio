@@ -42,6 +42,9 @@ const AcademicStyled = styled.div`
     padding: 10px;
     border: 1px solid var(--theme-textOffset);
     border-radius: 10px;
+    @media (max-width: ${({theme}) => theme.mobile}) {
+      width: 300px;
+    }
   }
   .project_box ul {
     padding-left: 25px;
