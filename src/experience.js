@@ -6,12 +6,23 @@ export const experiences = [
     title: 'Senior Software Developer',
     skills: ['C#', '.Net', 'MVC', 'HTML', 'CSS', 'SCSS', 'JS', 'Knockout', 'CI/CD', 'Unit Testing', 'Agile/Scrum'],
     responsibilities: [
-      'Maintained the WebSelfStorage team’s large storage facility management tool. Using .Net MVC & Knockout. Handled Linq & Stored Procedure scripts. Unit testing coverage.',
-      'Further developed and integrated a QuickBooks & Sage50 interface within the management tool.',
-      'Developed a suite of REST API services(~12) used for integration in physical kiosks. Utilizing Swagger for development and documentation.',
-      'Maintained existing internal SOAP services(~15) utilized by other U-Haul teams.',
-      'Extensive refactoring and rewriting initiatives.',
-      'Lead a new CMS implementation, enabling affiliate customers to expose their own public storage facility websites.'
+      {
+        desc: 'Lead a CMS implementation initiative, offering affiliate customers to expose their own facility website.',
+        sub: ['.Net Core & Vue/React.', 'Cofoundry Framework.', 'Azure Build & Release Pipelines.']
+      },
+      {
+        desc: 'Contributed to U-Haul’s largest SaaS product, WebSelfStorage.',
+        sub: ['Agile/Scrum methodology.', 'Close interaction with product owners & stakeholders.', 'Advanced through several internal teams.']
+      },
+      {
+        desc: 'Completed and enhanced Quickbooks & Sage50 interface integration.'
+      },
+      {
+        desc: 'Developed and deployed a suite(~12) of REST API’s in tandem with an external kiosk team, used for integration in the physical facility kiosks.'
+      },
+      {
+        desc: 'Enhanced and maintained existing internal SOAP services(~15) utilized by other U-Haul teams.'
+      }
     ]
   },
 
@@ -22,12 +33,24 @@ export const experiences = [
     title: 'Senior Software Developer',
     skills: ['C#', 'ASP.NET', 'Web Forms', 'MVC', 'HTML', 'CSS', 'JS'],
     responsibilities: [
-      'Responsible for developing,maintaining, & updating a significant number of .NET products(30+) for the Contact Center applications team. ASP.NET WebForms & MVC.',
-      'Responsible for maintaining and servicing the Roadside Assistance product, one of U-Haul’s largest customer service facing applications.',
-      'Worked closely with management to schedule release packages for various applications.',
-      'Refactored and maintained the internal permission management system utilized by all development and users of internal products.',
-      'Developed an internal support messaging system using SignalR.',
-      'Contributed to custom Cisco Calabrio software designed to assist and monitor customer service calls.'
+      {
+        desc: 'Lead and completed rewrite initiative for internal Permission Management product.',
+        sub: ['Utilized by all internal products to manage user access.', 'Rewritten in ASP.NET MVC using C# and Knockout.']
+      },
+      {
+        desc: 'Lead development and implementation of a custom Cisco Calabrio product designed to assist & monitor customer calls.',
+      },
+      {
+        desc: 'Developed internal support messaging system, U-Chat, using SignalR.',
+      },
+      {
+        desc: 'Responsible for developing, maintaining, & enhancing a significant number of ASP.NET products(30+).',
+        sub: ['Co-lead scheduling and release process for all team products.', 'VB, Web Forms.', 'C#, MVC.']
+      },
+      {
+        desc: 'Actively maintained Roadside Assistance, one of U-Haul’s largest service products.',
+        sub: ['Contributed to rewrite initiative from Web Forms in VB to C# MVC.']
+      }
     ]
   },
 
@@ -38,11 +61,22 @@ export const experiences = [
     title: 'Software Engineer/Tech Writer',
     skills: ['Java', 'C#', 'WPF', 'Documentation', 'Technical Writing'],
     responsibilities: [
-      'Independently developed a Windows desktop solution to dynamically create, manage, & encrypt secure digital drives. UI developed in C#, WPF. Drive management in Java.',
-      'Contributed to completing an encrypted VPN solution for Windows using Java.',
-      'Collaborated with a small team to develop an Android application designed for encrypted communication over text and voice.',
-      'Wrote extensive amounts of documentation, detailing application functionality.',
-      'Wrote many outlines and proposals for technical books.'
+      {
+        desc: 'Independently developed dynamic storage encryption solution.',
+        sub: ['Windows desktop solution.', 'User interface developed using WPF in C#', 'Storage management developed using Java.']
+      },
+      {
+        desc: 'Contributed to completing an encrypted VPN solution for Windows using Java.',
+      },
+      {
+        desc: 'Collaborated with a small team to develop an Android application designed for encrypted communication over text and voice.',
+      },
+      {
+        desc: 'Wrote extensive product documentation, detailing technical details and functionality.',
+      },
+      {
+        desc: 'Wrote many outlines and proposals for technical books.',
+      },
     ]
   }
 ];

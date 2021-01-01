@@ -18,9 +18,21 @@ const Experience = ({exp}) => {
         {/* Responsibilities */}
         <ul className='experience_responsibilities'>
           {exp.responsibilities.map((item, i) =>
-            <li key={i}>{item}</li>
+          <span key={i}>
+            <li>{item.desc}</li>
+
+            {item.sub !== undefined &&
+              <ul>
+                {item.sub.map((sub, j) =>
+                  <li key={j}>{sub}</li>
+                )}
+              </ul>
+            }
+
+          </span>
           )}
         </ul>
+
         {/* Skills */}
         <Row>
           {exp.skills.map((item, i) =>

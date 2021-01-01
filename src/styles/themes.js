@@ -18,7 +18,7 @@ const Themes = {
 
     // Highlight
     primary: '#F55536',           // Orange Soda
-    secondary: '#698F3F',         // Maximum Green
+    secondary: '#575F8F',         // Dark Blue Gray
   },
 
   dark: {
@@ -34,7 +34,7 @@ const Themes = {
 
     // Highlight
     primary: '#008C8F',           // Dark Cyan
-    secondary: '#626BA7',         // Dark Blue Gray
+    secondary: '#A0CFAB',         // Turquoise Green
   }
 };
 export default Themes;

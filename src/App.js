@@ -11,7 +11,7 @@ import Themes from 'styles/themes';
 
 const App = () => {
   const [theme, setTheme] = useState(JSON.parse(localStorage.getItem('theme')) ?? Themes.light);
-  const toggleTheme = () => setTheme(theme === Themes.light ? Themes.dark : Themes.light);
+  const toggleTheme = () => setTheme(theme.dark ? Themes.light : Themes.dark);
   useEffect(() => {
     localStorage.setItem('theme', JSON.stringify(theme));
   }, [theme]);
