@@ -1,5 +1,10 @@
 # Portfolio
-Hey there, welcome to my [Portfolio](https://github.com/Tpikl/Portfolio/#readme) project. This is for my personal website, built using React & styled-components.
+Hey there and welcome to my Portfolio project, for my personal [website](https://taynich.dev).
+A simple start to increasing visibility.
+
+Built using:
+- React
+- styled-components
 
 
 ## Install & Set Up
