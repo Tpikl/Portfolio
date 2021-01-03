@@ -14,17 +14,15 @@ const AboutStyled = styled.div`
     margin: 0 50px;
     margin-bottom: 10px;
     padding-bottom: 10px;
-    text-align: center;
     border-bottom: 1px solid white;
   }
 
   .about_skills {
-    justify-content: center;
     align-content: space-between;
   }
 
   .about_pic {
-    margin: auto 0;
+    margin-bottom: auto;
     max-width: 250px;
     max-height: 250px;
     border-radius: 25%;

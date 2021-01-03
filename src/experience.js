@@ -4,7 +4,7 @@ export const experiences = [
     endDate: 2020,
     company: 'U-Haul: WebSelfStorage',
     title: 'Senior Software Developer',
-    skills: ['C#', '.Net', 'MVC', 'HTML', 'CSS', 'SCSS', 'JS', 'Knockout', 'CI/CD', 'Unit Testing', 'Agile/Scrum'],
+    skills: ['C#', 'ASP.Net', 'MVC', 'HTML', 'CSS', '(S)CSS', 'JS', 'Knockout', 'React', 'Vue.js', 'CI/CD', 'Unit Testing', 'Agile/Scrum'],
     responsibilities: [
       {
         desc: 'Lead a CMS implementation initiative, offering affiliate customers to expose their own facility website.',
@@ -31,7 +31,7 @@ export const experiences = [
     endDate: 2017,
     company: 'U-Haul: Contact Center',
     title: 'Senior Software Developer',
-    skills: ['C#', 'ASP.NET', 'Web Forms', 'MVC', 'HTML', 'CSS', 'JS'],
+    skills: ['C#', 'VB', 'ASP.NET', 'Web Forms', 'MVC', 'SignalR', 'Calabrio', 'HTML', 'CSS', 'JS', 'Knockout'],
     responsibilities: [
       {
         desc: 'Lead and completed rewrite initiative for internal Permission Management product.',

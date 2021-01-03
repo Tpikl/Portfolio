@@ -34,7 +34,7 @@ const Experience = ({exp}) => {
         </ul>
 
         {/* Skills */}
-        <Row>
+        <Row wrap={'true'}>
           {exp.skills.map((item, i) =>
             <Skill key={i} name={item} />
           )}
