@@ -1,4 +1,4 @@
-export const experiences = [
+export const experience = [
   {
     startDate: 2017,
     endDate: 2020,

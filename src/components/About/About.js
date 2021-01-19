@@ -1,6 +1,6 @@
 import { Row, Column } from "shared/Flex";
 import { Category } from "shared/Skill";
-import { skills } from 'experience';
+import { skills } from 'data/experience';
 
 import AboutStyled from "./About.styled";
 
