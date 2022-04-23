@@ -16,7 +16,7 @@ const About = () => {
       <Row>
         <Row wrap={'true'} className={'about_skills'}>
           {skills.map((item, i) =>
-            <Category key={i} category={item} />
+            <Category key={i} category={item} className='l-glow' />
            )}
         </Row>
         <Column>

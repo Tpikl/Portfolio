@@ -52,5 +52,9 @@ const GlobalStyles = createGlobalStyle`
   & a:hover {
     color: var(--theme-secondary);
   }
+
+  // Modular classes.
+  .l-glow:hover { box-shadow: 1px 1px 3px 0 var(--theme-textOffset);
+  }
 `
 export default GlobalStyles;

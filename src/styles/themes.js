@@ -26,7 +26,7 @@ const Themes = {
     dark: true,
     // Background
     background: '#161A28',        // Raisin Black
-    backgroundOffset: '#141C29',  // Rich Black
+    backgroundOffset: '#0e131c',  // Rich Black
 
     // Text
     text: '#ECE8EE',              // Ghost White

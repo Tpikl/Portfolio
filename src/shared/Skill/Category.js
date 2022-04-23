@@ -1,8 +1,8 @@
 import CategoryStyled from "./Category.styled";
 
-const Category =({category})=> {
+const Category =({category, className})=> {
   return (
-    <CategoryStyled>
+    <CategoryStyled className={className}>
       <i className={`cat_icon ${category.fa}`}></i>
       <div className='cat_title'>{category.name}</div>
       <div className='cat_skills'>

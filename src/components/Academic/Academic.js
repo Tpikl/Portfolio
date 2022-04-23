@@ -20,7 +20,7 @@ const Academic = () => {
       <h2>Projects:</h2>
       <div className='academic_projects'>
 
-        <div className='project_box'>
+        <div className='project_box l-glow'>
           <div className='project_title'>[Buffer] Overflow</div>
           <div className='project_subtitle'>Security Research Group</div>
           <ul>
@@ -30,7 +30,7 @@ the Western US.</li>
           </ul>
         </div>
 
-        <div className='project_box'>
+        <div className='project_box l-glow'>
           <div className='project_title'>Root the Box</div>
           <div className='project_subtitle'>Annual Security CtF Event</div>
           <ul>

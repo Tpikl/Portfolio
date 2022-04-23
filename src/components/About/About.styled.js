@@ -23,8 +23,8 @@ const AboutStyled = styled.div`
 
   .about_pic {
     margin-bottom: auto;
-    max-width: 250px;
-    max-height: 250px;
+    max-width: 225px;
+    max-height: 225px;
     border-radius: 25%;
     ${({theme}) => theme.dark &&`
       filter: grayscale(100%);

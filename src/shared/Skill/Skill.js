@@ -1,8 +1,8 @@
 import SkillStyled from "./Skill.styled";
 
-const Skill = ({name}) => {
+const Skill = ({name, className}) => {
   return (
-    <SkillStyled>
+    <SkillStyled className={className}>
       {name}
     </SkillStyled>
  );

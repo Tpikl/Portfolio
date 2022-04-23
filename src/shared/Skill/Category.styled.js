@@ -9,6 +9,7 @@ const CategoryStyled = styled.div`
   min-width: 200px;
   max-width: 200px;
   margin-bottom: 10px;
+  border-radius: 2px;
 
   .cat_icon {
     margin: 10px auto;

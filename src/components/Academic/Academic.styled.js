@@ -45,20 +45,21 @@ const AcademicStyled = styled.div`
     @media (max-width: ${({theme}) => theme.mobile}) {
       width: 300px;
     }
-  }
-  .project_box ul {
-    padding-left: 25px;
-    line-height: 1.7;
-  }
-  .project_title {
-    font-size: 1.75em;
-    font-family: 'Roboto Slab', serif;
-    color: var(--theme-textOffset);
-  }
-  .project_subtitle {
-    margin-left: 10px;
-    font-size: 1.25em;
-    color: var(--theme-secondary);
+
+    ul {
+      padding-left: 25px;
+      line-height: 1.7;
+    }
+    .project_title {
+      font-size: 1.75em;
+      font-family: 'Roboto Slab', serif;
+      color: var(--theme-textOffset);
+    }
+    .project_subtitle {
+      margin-left: 10px;
+      font-size: 1.25em;
+      color: var(--theme-secondary);
+    }
   }
 `;
 export default AcademicStyled;

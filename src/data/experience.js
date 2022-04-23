@@ -1,5 +1,19 @@
 export const experience = [
   {
+    startDate: 2021,
+    endDate: 'Pres',
+    company: 'R1 RCM',
+    title: 'Senior Software Developer (Remote)',
+    skills: ['C#', 'ASP.Net', 'MVC', 'HTML', 'CSS', '(S)CSS', 'JS', 'TypeScript', 'Knockout', 'Agile/Scrum'],
+    responsibilities: [
+      {
+        desc: 'Development on high priority medical order facilitator web application.',
+        sub: ['.Net Framework & TS/Knockout.', 'Implemented complex fax interface, utilized with orders.']
+      },
+      { desc: 'Sprint concurrent refactoring efforts.' }
+    ]
+  },
+  {
     startDate: 2017,
     endDate: 2020,
     company: 'U-Haul: WebSelfStorage',
@@ -14,15 +28,9 @@ export const experience = [
         desc: 'Contributed to U-Haul’s largest SaaS product, WebSelfStorage.',
         sub: ['Agile/Scrum methodology.', 'Close interaction with product owners & stakeholders.', 'Advanced through several internal teams.']
       },
-      {
-        desc: 'Completed and enhanced Quickbooks & Sage50 interface integration.'
-      },
-      {
-        desc: 'Developed and deployed a suite(~12) of REST API’s in tandem with an external kiosk team, used for integration in the physical facility kiosks.'
-      },
-      {
-        desc: 'Enhanced and maintained existing internal SOAP services(~15) utilized by other U-Haul teams.'
-      }
+      { desc: 'Completed and enhanced Quickbooks & Sage50 interface integration.' },
+      { desc: 'Developed and deployed a suite(~12) of REST API’s in tandem with an external kiosk team, used for integration in the physical facility kiosks.' },
+      { desc: 'Enhanced and maintained existing internal SOAP services(~15) utilized by other U-Haul teams.' }
     ]
   },
 
@@ -37,12 +45,8 @@ export const experience = [
         desc: 'Lead and completed rewrite initiative for internal Permission Management product.',
         sub: ['Utilized by all internal products to manage user access.', 'Rewritten in ASP.NET MVC using C# and Knockout.']
       },
-      {
-        desc: 'Lead development and implementation of a custom Cisco Calabrio product designed to assist & monitor customer calls.',
-      },
-      {
-        desc: 'Developed internal support messaging system, U-Chat, using SignalR.',
-      },
+      { desc: 'Lead development and implementation of a custom Cisco Calabrio product designed to assist & monitor customer calls.' },
+      { desc: 'Developed internal support messaging system, U-Chat, using SignalR.' },
       {
         desc: 'Responsible for developing, maintaining, & enhancing a significant number of ASP.NET products(30+).',
         sub: ['Co-lead scheduling and release process for all team products.', 'VB, Web Forms.', 'C#, MVC.']
@@ -65,18 +69,10 @@ export const experience = [
         desc: 'Independently developed dynamic storage encryption solution.',
         sub: ['Windows desktop solution.', 'User interface developed using WPF in C#', 'Storage management developed using Java.']
       },
-      {
-        desc: 'Contributed to completing an encrypted VPN solution for Windows using Java.',
-      },
-      {
-        desc: 'Collaborated with a small team to develop an Android application designed for encrypted communication over text and voice.',
-      },
-      {
-        desc: 'Wrote extensive product documentation, detailing technical details and functionality.',
-      },
-      {
-        desc: 'Wrote many outlines and proposals for technical books.',
-      },
+      { desc: 'Contributed to completing an encrypted VPN solution for Windows using Java.' },
+      { desc: 'Collaborated with a small team to develop an Android application designed for encrypted communication over text and voice.' },
+      { desc: 'Wrote extensive product documentation, detailing technical details and functionality.' },
+      { desc: 'Wrote many outlines and proposals for technical books.' },
     ]
   }
 ];
@@ -85,7 +81,7 @@ export const skills = [
   {
     name: 'Front End',
     fa: 'fas fa-code',
-    skills: ['HTML', '(S)CSS', 'JavaScript', 'React', 'Vue.js', 'Knockout']
+    skills: ['HTML', '(S)CSS', 'JS', 'TypeScript', 'React', 'Vue.js', 'Knockout']
   },
   {
     name: 'Back End',
